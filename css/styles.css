@@ -39,6 +39,12 @@ a, i {
 
 #header p {
     margin-bottom: 0;
+   
+}
+
+span {
+    text-align: center;
+   
 }
 
 #logo-container {
@@ -84,23 +90,23 @@ a, i {
 
 /* GALLERY */
 
-#img2 {
+#image2 {
     background-image: url('../img/g_2.jpg');
 }
 
-#img3 {
+#image3 {
     background-image: url('../img/g_3.jpg');
 }
 
-#img4 {
+#image4 {
     background-image: url('../img/g_4.jpg');
 }
 
-#img5 {
+#image5 {
     background-image: url('../img/g_5.jpg');
 }
 
-#img {
+#image6 {
     background-image: url('../img/g_6.jpg');
 }
 
@@ -115,8 +121,36 @@ a, i {
 }
 
 .small-image-container {
-    height: 250px;
+    height: 300px;
     margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+#social-icons-container {
+    padding: 25px;
+}
+
+#social-icons-container div {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+
+a:hover i {
+    color: #c1b696;
 }
 
 
